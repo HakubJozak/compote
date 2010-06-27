@@ -1,0 +1,50 @@
+= Compot
+
+
+Toolbox for rapid game prototyping and game development using Ruby, Gosu and Chipmunk. It should also help you packaging the game for various platforms.
+Compot should help you win game compos!
+
+= Progress 
+The toolbox development just started.
+
+  0%|>                        |100%
+
+
+== Usage
+
+Run
+
+  compot tetris
+
+to create your first original game template.
+
+== Generated Directory Structure
+
+  /tetris
+  |--/lib
+  |---- tetris.rb
+  |--/test
+  |---- tetris_test.rb
+  |--/media
+  |----/images
+  |----/sounds
+  |----/music
+  |Gemfile
+  |.gitignore
+  |play.rb
+  
+
+== Requirements
+
+* Thor
+    
+
+== TODO
+* "new game" generator
+* GIT and Bundler integration
+* package
+* usage of Gosu and Chipmunk optionable
+
+== Credits
+* Written by Jakub Hozak
+* Generator idea
