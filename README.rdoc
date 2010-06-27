@@ -1,14 +1,6 @@
-= Compot
+= Compot (helps you win the compos!)
 
-
-Toolbox for rapid game prototyping and game development using Ruby, Gosu and Chipmunk. It should also help you packaging the game for various platforms.
-Compot should help you win game compos!
-
-= Progress 
-The toolbox development just started.
-
-  0%|>                        |100%
-
+Toolbox for rapid game prototyping and development using Ruby, Gosu and Chipmunk. It should also help you packaging the game for various platforms yet it does not right now. Contributors welcome!
 
 == Usage
 
@@ -34,16 +26,21 @@ to create your first original game template.
   |play.rb
   
 
+== Progress 
+The toolbox development just started.
+
+  0%|>                        |100%
+
+=== TODO
+* GIT and Bundler integration
+* packaging for deployment Windows/Linux/MacOS
+* usage of Gosu and Chipmunk optionable
+
+
 == Requirements
 
 * Thor
     
-
-== TODO
-* "new game" generator
-* GIT and Bundler integration
-* package
-* usage of Gosu and Chipmunk optionable
 
 == Credits
 * Written by Jakub Hozak
