@@ -17,16 +17,19 @@ to create your first original game template.
 
   /tetris
   |--/lib
-  |---- tetris.rb
+  |  `-- tetris.rb
+  |
   |--/test
-  |---- tetris_test.rb
+  |  `-- tetris_test.rb
+  |
   |--/media
-  |----/images
-  |----/sounds
-  |----/music
-  |- Gemfile
-  |- .gitignore
-  |- play.rb
+  |  |-- images
+  |  |-- sounds
+  |  `-- music
+  |
+  |-- Gemfile
+  |-- .gitignore
+  `-- play.rb
   
 
 ==Progress 
