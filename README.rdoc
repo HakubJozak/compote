@@ -1,12 +1,15 @@
-= Compot (helps you win the compos!)
+=Compote
+(helps you to win the compos!)
 
 Toolbox for rapid game prototyping and development using Ruby, Gosu and Chipmunk. It should also help you packaging the game for various platforms yet it does not right now. Contributors welcome!
 
-== Usage
+== Install
 
-Run
+  gem install compote (not yet!)
 
-  compot tetris
+==Usage
+
+  compote tetris
 
 to create your first original game template.
 
@@ -21,27 +24,27 @@ to create your first original game template.
   |----/images
   |----/sounds
   |----/music
-  |Gemfile
-  |.gitignore
-  |play.rb
+  |- Gemfile
+  |- .gitignore
+  |- play.rb
   
 
-== Progress 
-The toolbox development just started.
+==Progress 
+The toolbox development just started. Contributors needed! Please see the TODO list or make your own suggestion!
 
   0%|>                        |100%
 
-=== TODO
+===TODO
+* bundle as a gem
 * GIT and Bundler integration
 * packaging for deployment Windows/Linux/MacOS
 * usage of Gosu and Chipmunk optionable
 
 
-== Requirements
+==Requirements
 
 * Thor
-    
 
-== Credits
-* Written by Jakub Hozak
-* Generator idea
+==Credits
+* Written by Jakub Hozak and contributors
+* Generator idea shamelessly stolen from Gamebox, Rails and others
