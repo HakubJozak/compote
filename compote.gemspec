@@ -1,4 +1,7 @@
 # -*- encoding: utf-8 -*-
+require 'rubygems'
+require 'bundler'
+
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
  
@@ -10,10 +13,10 @@ Gem::Specification.new do |s|
   s.authors     = ["Jakub Hozak"]
   s.email       = ["jakub.hozak@gmail.com"]
   s.homepage    = "http://github.com/HakubJozak/compote"
-  s.summary     = "Toolbox for rapid game prototyping."
-  s.description = "Toolbox for rapid game prototyping and development using Ruby, Gosu and Chipmunk."
+  s.summary     = "Templating toolbox for rapid prototyping."
+  s.description = "Templating toolbox for prototyping and development. Just make a skeleton full of ERB files and let the magic happen."
   s.required_rubygems_version = ">= 1.3.6"
-  s.add_dependency "thor"
+  s.add_bundler_dependencies
   s.files = Dir.glob("{bin,lib,template}/**/*") + %w(README.rdoc)
   s.test_files = Dir.glob('test/**/*')  
   s.executables  = ['compote']
